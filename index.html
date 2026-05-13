@@ -11,20 +11,20 @@
    
         <h1>Minhas tarefas</h1>
     
-    <form id="form-tarefa">
-        <input type="text" id="titulo" placeholder="Título" required>
-        <input type="text" id="descricao" placeholder="Descrição">
+    <form id="form-tarefa">  // cadastrar novas tarefas //
+        <input type="text" id="titulo" placeholder="Título" required>  // usuario digita o titulo da tarefa //
+        <input type="text" id="descricao" placeholder="Descrição">  // detalhes da tarefa //
 
-        <select id="prioridade">
+        <select id="prioridade">  // niveis da prioridade //
             <option value="baixa">Baixa</option>
             <option value="media">Média</option>
             <option value="alta">Alta</option>
         </select>
 
-        <button type="submit">Adicionar</button>
+        <button type="submit">Adicionar</button> // envia os dados //
     </form>
 
-    <ul id="lista-tarefas"></ul>
+    <ul id="lista-tarefas"></ul> // tarefas serão exibidas //
 
     <script src="script.js"></script>
     
